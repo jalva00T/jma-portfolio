@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link Thumbnail Image -->
+  <meta name="description" content="Portfolio Pic2" />
+  <meta name="title" property="og:title" content="Portfolio2" />
+  <meta property="og:type" content="Website" />
+  <meta name="image" property="og:image" content="https://res.cloudinary.com/dlr6ybcfd/image/upload/v1646763780/portfolio_thumbnail_linkedin_copy_jikfvc.jpg" />
+  <meta name="description" property="og:description" content="Portfolio Pic2" />
+  <meta name="author" content="Jake_Alvarez" />
+
+  <link rel="icon" type="image/png" href="img/techis-logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <!-- container, adjust the width for each device. -->
+    <div class="container">
+      <!-- navbar-brand, for your company, product, or project name. -->
+      <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
+      <!-- navbar-toggler, for use with our collapse plugin and other navigation toggling behaviors. -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- .collapse .navbar-collapse, for grouping and hiding navbar contents by a parent breakpoint. -->
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <!-- navbar-nav, for a full-height and lightweight navigation -->
+        <!-- ms-auto, for pushing items to the left -->
+        <!-- mb-2, for a margin bottom for 2 levels -->
+        <ul class="navbar-nav ms-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link font-white" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-white" href="#project">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="about">
+    <h2><span class="font-primary">A</span>bout</h2>
+    <a href="img/IMG_3448 2.jpg" target="_blank">
+      <img src="img/IMG_3448 2.jpg">
+    </a>
+    <div class="name">Jake Alvarez</div>
+    <div class="vocation">Web Application Developer</div>
+    <div class="skills">HTML | CSS | SASS | JavaScript | SQL | Python | Django | React.js | Redux</div>
+    <p>Dedicated, motivated, and eager to learn web developer with Full Stack certification from TECH I.S.</p>
+    <div class="email">color.feed91@gmail.com</div>
+    <div class="icons">
+      <a href="https://github.com/jalva00T" target=_blank><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/jake-alvarez/" target=_blank><i class="bi bi-linkedin ms-4"></i></a>
+    </div>
+  </div>
+
+  <div id="project">
+    <h2><span class="font-primary">P</span>rojects</h2>
+
+    <div class="card mb-3">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="img/twittershot.png" target="_blank">
+            <img src="img/twittershot.png" alt="Twitter Project">
+            <!-- <video src="https://res.cloudinary.com/dlr6ybcfd/video/upload/v1643934542/twitter_video_dciyp9.mp4"
+              alt="Twitter Project" type="video/mp4" controls> -->
+          </a>
+        </div>
+        <div class="col-md-8" id="card-container">
+          <div class="card-body">
+            <h5 class="card-title">Twitter Clone</h5>
+            <p class="card-text">This is a Twitter based project created using HTML / CSS / Bootstrap / JS / Python / Django /
+              Cloudinary. This project does not include sign-up/login functionality but still implements
+              CRUD(Create/Read/Update/Delete) fundamentals. *CREATED FOR TECH I.S.*</p>
+            <!-- <p class="card-text"><small class="text-muted">
+                Test Login Account <br>
+                Email: twittertest@gmail.com <br>
+                Password: 1234
+              </small></p> -->
+            <br>
+            <a href="https://jake-twitter.herokuapp.com/" target="_blank"
+              class="btn btn-secondary shadow-none">Website</a>
+            <a href="https://github.com/jalva00T/twitter_Clone" target="_blank"
+              class="btn btn-secondary shadow-none">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="card mb-3">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="img/artshop.png" target="_blank">
+            <img src="img/artshop.png" alt="Artshop Project">
+            <!-- <video src="https://res.cloudinary.com/dlr6ybcfd/video/upload/v1643934546/sd_video_k38zw9.mp4"
+              alt="ArtShop Project" type="video/mp4" controls> -->
+          </a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Artshop</h5>
+            <p class="card-text">This is a mini e-commerce project created using HTML / CSS / React / Redux / JS / Python /
+              Django /
+              Cloudinary. This project includes sign-up/login functionality. User provides email address and creates
+              password. *CREATED FOR TECH I.S.*</p>
+            <p class="card-text"><small class="text-muted">
+                Test Login Account <br>
+                Email: testemail@email.com <br>
+                Password: test
+              </small></p>
+            <br>
+            <a href="https://artshop-sd-frontend.herokuapp.com/" target="_blank"
+              class="btn btn-secondary shadow-none">Website</a>
+            <a href="https://github.com/jalva00T/artshop" target="_blank"
+              class="btn btn-secondary shadow-none">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="card mb-3">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="img/hive.png" target="_blank">
+            <img src="img/hive.png" alt="Hive Project">
+            <!-- <video src="https://res.cloudinary.com/dlr6ybcfd/video/upload/v1643934549/hive_video_jud0wh.mp4" controls> -->
+          </a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">HIVE Techwear</h5>
+            <p class="card-text">This is a complete e-commerce project created using HTML / CSS / React / Redux
+              / JS / Python / Django / Cloudinary. This project includes sign-up/login functionality. User provides
+              email address and creates password. *CREATED FOR TECH I.S.*</p>
+            <p class="card-text"><small class="text-muted">
+                Test Login Account <br>
+                Email: testemail@email.com <br>
+                Password: test
+              </small></p>
+            <br>
+            <a href="https://hive-techware-frontend.herokuapp.com/" target="_blank"
+              class="btn btn-secondary shadow-none">Website</a>
+            <a href="https://github.com/Hive-Techware/Hive-Techware" target="_blank"
+              class="btn btn-secondary shadow-none">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="card mb-3">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="img/gustos.png" target="_blank">
+            <img src="img/gustos.png" alt="Hive Project">
+            <!-- <video src="https://res.cloudinary.com/dlr6ybcfd/video/upload/v1643934549/hive_video_jud0wh.mp4" controls> -->
+          </a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">GUSTOS burgers + stuff</h5>
+            <p class="card-text">This is a simple 2 page project created using HTML / CSS / JS. Form is handled via Formspree per clients request. *REAL WORLD PROJECT*</p>
+            <!-- <p class="card-text"><small class="text-muted">
+                Test Login Account <br>
+                Email: netflixtest@gmail.com <br>
+                Password: 1234
+              </small></p> -->
+            <br>
+            <a href="https://gustos.fun/" target="_blank"
+              class="btn btn-secondary shadow-none">Website</a>
+            <a href="https://github.com/jalva00T/gustos" target="_blank"
+              class="btn btn-secondary shadow-none">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

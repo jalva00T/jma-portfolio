@@ -1,0 +1,146 @@
+/**************
+
+COMMON
+
+**************/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: "monospace", sans-serif;
+    background-color: #000000;
+    color: #ffffff !important;
+}
+
+.font-primary {
+    color: #00ABAE;
+}
+
+.title-icon {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+a.font-white {
+    color: #FFFFFF !important;
+}
+
+.navbar .container .navbar-brand {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.collapse li a {
+    font-weight: bold;
+}
+
+/**************
+
+ABOUT
+
+**************/
+
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+#about img:hover {
+    transform: scale(2.75);
+    border-radius: 25% 0% 25% 0%;
+}
+
+#about .name {
+    font-size: 19px;
+}
+
+#about .vocation {
+    color: #A8A8AB;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#about .skills {
+    color: #00ABAE;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#about .email {
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+#about .icons {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#about .icons a {
+    color: #00ABAE;
+}
+
+
+/**************
+
+PROJECTS
+
+**************/
+
+#project {
+    margin: 60px auto;
+    width: 80%;
+    color: #000000;
+}
+
+#project .card {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#project h2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#project .card img {
+    width: 100%;
+}
+
+#project .card img:hover {
+    width: 100%;
+    transform: scale(1.1);
+}
+
+#project .card-title {
+    font-weight: bold;
+}
+
+/**************
+
+VIDEO
+
+**************/
+
+video {
+    height: 320px; 
+    width: 320px;
+}
